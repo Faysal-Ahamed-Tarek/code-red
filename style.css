@@ -3,6 +3,10 @@
   font-family: "Kanit", sans-serif;
 }
 
+p{
+  font-size: 20px;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -70,6 +74,14 @@ a{
 .TopCoders:hover{
   border: 2px solid #C9F31D;
 
+}
+
+.col-lg-4 , .col-lg-3{
+  z-index: 10;
+}
+
+.cpRankings{
+  margin-bottom: 200px;
 }
 
 .glitch {
