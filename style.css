@@ -71,6 +71,7 @@ a{
   text-decoration: none !important;
 }
 
+
 .TopCoders:hover{
   border: 2px solid #C9F31D;
 
@@ -113,6 +114,14 @@ a{
   transform: translate(0.04em, 0.03em);
   opacity: 0.75;
 }
+
+
+@media only screen and (min-width: 600px) {
+  .w-sm-100.w-50 {
+    width: 100% !important;
+  }
+}
+
 
 @keyframes glitch {
   0% {
